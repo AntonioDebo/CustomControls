@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.adButton3 = new CustomControls.ADControls.ADButton();
             this.adButton2 = new CustomControls.ADControls.ADButton();
             this.adButton1 = new CustomControls.ADControls.ADButton();
             this.adToogleButton2 = new CustomControls.ADControls.ADToogleButton();
             this.adToogleButton1 = new CustomControls.ADControls.ADToogleButton();
-            this.adButton3 = new CustomControls.ADControls.ADButton();
+            this.adTextBox1 = new CustomControls.ADControls.ADTextBox();
+            this.adTextBox2 = new CustomControls.ADControls.ADTextBox();
             this.SuspendLayout();
+            // 
+            // adButton3
+            // 
+            this.adButton3.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.adButton3.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.adButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.adButton3.BorderRadius = 10;
+            this.adButton3.BorderSize = 0;
+            this.adButton3.FlatAppearance.BorderSize = 0;
+            this.adButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.adButton3.ForeColor = System.Drawing.Color.White;
+            this.adButton3.Location = new System.Drawing.Point(89, 263);
+            this.adButton3.Name = "adButton3";
+            this.adButton3.Size = new System.Drawing.Size(150, 53);
+            this.adButton3.TabIndex = 4;
+            this.adButton3.Text = "adButton3";
+            this.adButton3.TextColor = System.Drawing.Color.White;
+            this.adButton3.UseVisualStyleBackColor = false;
             // 
             // adButton2
             // 
@@ -101,29 +121,43 @@
             this.adToogleButton1.Text = "adToogleButton1";
             this.adToogleButton1.UseVisualStyleBackColor = true;
             // 
-            // adButton3
+            // adTextBox1
             // 
-            this.adButton3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.adButton3.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.adButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.adButton3.BorderRadius = 10;
-            this.adButton3.BorderSize = 0;
-            this.adButton3.FlatAppearance.BorderSize = 0;
-            this.adButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adButton3.ForeColor = System.Drawing.Color.White;
-            this.adButton3.Location = new System.Drawing.Point(89, 263);
-            this.adButton3.Name = "adButton3";
-            this.adButton3.Size = new System.Drawing.Size(150, 53);
-            this.adButton3.TabIndex = 4;
-            this.adButton3.Text = "adButton3";
-            this.adButton3.TextColor = System.Drawing.Color.White;
-            this.adButton3.UseVisualStyleBackColor = false;
+            this.adTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.adTextBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.adTextBox1.BorderSize = 2;
+            this.adTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adTextBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.adTextBox1.Location = new System.Drawing.Point(310, 42);
+            this.adTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.adTextBox1.Name = "adTextBox1";
+            this.adTextBox1.Padding = new System.Windows.Forms.Padding(7);
+            this.adTextBox1.Size = new System.Drawing.Size(250, 35);
+            this.adTextBox1.TabIndex = 5;
+            this.adTextBox1.UnderLinedStyle = true;
+            // 
+            // adTextBox2
+            // 
+            this.adTextBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.adTextBox2.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.adTextBox2.BorderSize = 2;
+            this.adTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adTextBox2.ForeColor = System.Drawing.Color.DimGray;
+            this.adTextBox2.Location = new System.Drawing.Point(310, 88);
+            this.adTextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.adTextBox2.Name = "adTextBox2";
+            this.adTextBox2.Padding = new System.Windows.Forms.Padding(7);
+            this.adTextBox2.Size = new System.Drawing.Size(250, 35);
+            this.adTextBox2.TabIndex = 6;
+            this.adTextBox2.UnderLinedStyle = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(764, 371);
+            this.Controls.Add(this.adTextBox2);
+            this.Controls.Add(this.adTextBox1);
             this.Controls.Add(this.adButton3);
             this.Controls.Add(this.adButton2);
             this.Controls.Add(this.adButton1);
@@ -143,6 +177,8 @@
         private ADControls.ADButton adButton1;
         private ADControls.ADButton adButton2;
         private ADControls.ADButton adButton3;
+        private ADControls.ADTextBox adTextBox1;
+        private ADControls.ADTextBox adTextBox2;
     }
 }
 

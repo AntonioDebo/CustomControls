@@ -49,6 +49,12 @@
     <Compile Include="ADControls\ADButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="ADControls\ADTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ADControls\ADTextBox.Designer.cs">
+      <DependentUpon>ADTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="ADControls\ADToogleButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ADControls\ADTextBox.resx">
+      <DependentUpon>ADTextBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
