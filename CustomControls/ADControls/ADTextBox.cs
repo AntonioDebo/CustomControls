@@ -76,7 +76,7 @@ namespace CustomControls.ADControls
                 if (underLinedStyle)//Line Style
                     graph.DrawLine(penBorder, 0, this.Height-1,this.Width,this.Height-1);
                 else //Normal Style
-                    graph.DrawLine(penBorder, 0,0,this.Width-0.5F,this.Height-0.5F);
+                    graph.DrawRectangle(penBorder, 0,0,this.Width-0.5F,this.Height-0.5F);
                 
             }
         }
